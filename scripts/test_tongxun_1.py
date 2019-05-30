@@ -51,7 +51,7 @@ class Test_tongxun:
     @pytest.mark.run(order=1)
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.issue('https:/www.baidu.com/')
-    @allure.testcase('https:/www.baidu.com/xixi')
+    @allure.testcase('https:/www.baidu.com/xixi21')
     @allure.title('测试添加返回')
     def test_tongxun_001(self):
         self.tongxun_obj.click_tianjia()
