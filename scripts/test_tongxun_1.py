@@ -50,7 +50,7 @@ class Test_tongxun:
 
     @pytest.mark.run(order=1)
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.issue('https:/www.baidu.com/')
+    @allure.issue('https:/www.baidu.com213/')
     @allure.testcase('https:/www.baidu.com/')
     @allure.title('测试添加返回')
     def test_tongxun_001(self):
