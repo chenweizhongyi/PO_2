@@ -73,7 +73,7 @@ class Test_tongxun:
     @pytest.mark.run(order=3)
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.issue('https:/www.baidu.com/')
-    @pytest.allure.testcase('https:/www.baidu.com/')
+    @pytest.allure.testcase('https:/www.baidu.com/youxiu')
     @allure.step(title="测试步骤003")
     def test_tongxun_003(self,input_name_iphone):
         self.base_obj.keyevent(4)
