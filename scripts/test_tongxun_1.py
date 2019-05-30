@@ -49,10 +49,10 @@ class Test_tongxun:
         self.tongxun_obj.input_iphone('15207189874')
 
     @pytest.mark.run(order=1)
-    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.severity(allure.severity_level.CRITICAL)
     @allure.issue('https:/www.baidu.com/')
-    @pytest.allure.testcase('https:/www.baidu.com/')
-    @allure.step(title="测试步骤001")
+    @allure.testcase('https:/www.baidu.com/xixi')
+    @allure.title('测试添加返回')
     def test_tongxun_001(self):
         self.tongxun_obj.click_tianjia()
         allure.attach('点击添加')
@@ -60,25 +60,25 @@ class Test_tongxun:
         self.tongxun_obj.click_fanhui()
         allure.attach('点击返回')
 
-    @pytest.mark.run(order=2)
-    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
-    @allure.issue('https:/www.baidu.com/')
-    @pytest.allure.testcase('https:/www.baidu.com/')
-    @allure.step(title="测试步骤002")
-    def test_tongxun_002(self,input_name_iphone):
-        self.tongxun_obj.click_fanhui()
-        self.base_obj.keyevent(4)
-        assert self.base_obj.find_element(Page.tx_tongxunlv)
-
-    @pytest.mark.run(order=3)
-    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
-    @allure.issue('https:/www.baidu.com/')
-    @pytest.allure.testcase('https:/www.baidu.com/youxiu')
-    @allure.step(title="测试步骤003")
-    def test_tongxun_003(self,input_name_iphone):
-        self.base_obj.keyevent(4)
-        self.base_obj.keyevent(4)
-        assert self.base_obj.find_element(Page.tx_tongxunlv)
+    # @pytest.mark.run(order=2)
+    # # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    # # @allure.issue('https:/www.baidu.com/')
+    # # @pytest.allure.testcase('https:/www.baidu.com/')
+    # # @allure.step(title="测试步骤002")
+    # def test_tongxun_002(self,input_name_iphone):
+    #     self.tongxun_obj.click_fanhui()
+    #     self.base_obj.keyevent(4)
+    #     assert self.base_obj.find_element(Page.tx_tongxunlv)
+    #
+    # @pytest.mark.run(order=3)
+    # # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    # # @allure.issue('https:/www.baidu.com/')
+    # # @pytest.allure.testcase('https:/www.baidu.com/youxiu')
+    # # @allure.step(title="测试步骤003")
+    # def test_tongxun_003(self,input_name_iphone):
+    #     self.base_obj.keyevent(4)
+    #     self.base_obj.keyevent(4)
+    #     assert self.base_obj.find_element(Page.tx_tongxunlv)
     #
     # @pytest.mark.run(order=4)
     # @pytest.mark.parametrize("input",tongxun_name_data())
