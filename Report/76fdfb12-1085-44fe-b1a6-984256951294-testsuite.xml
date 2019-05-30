@@ -1,0 +1,63 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1559194845353" stop="1559194891050">
+  <name>test_tongxun_1</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1559194845353" status="passed" stop="1559194853409">
+      <name>Test_tongxun.test_tongxun_001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16124-MainThread"/>
+        <label name="host" value="LAPTOP-5K2B8R5J"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1559194850489" status="passed" stop="1559194853409">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1559194853410" status="passed" stop="1559194872768">
+      <name>Test_tongxun.test_tongxun_002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16124-MainThread"/>
+        <label name="host" value="LAPTOP-5K2B8R5J"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1559194869924" status="passed" stop="1559194872768">
+          <name>测试步骤002</name>
+          <title>测试步骤002</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1559194872769" status="passed" stop="1559194891050">
+      <name>Test_tongxun.test_tongxun_003</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16124-MainThread"/>
+        <label name="host" value="LAPTOP-5K2B8R5J"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1559194888435" status="passed" stop="1559194891049">
+          <name>测试步骤003</name>
+          <title>测试步骤003</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

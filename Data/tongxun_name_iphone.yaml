@@ -1,0 +1,24 @@
+name:
+ tongxun_test_001:
+   input: "陈伟"
+ tongxun_test_002:
+   input: "chenwei"
+ tongxun_test_003:
+   input: "$#@"
+iphone:
+ tongxun_test_001:
+   input: "15207189874"
+ tongxun_test_002:
+   input: "12207189874"
+ tongxun_test_003:
+   input: "13307189874"
+name_iphone:
+  tongxun_test_001:
+    name: "陈伟1"
+    iphone: "15207189874"
+  tongxun_test_002:
+    name: "陈伟2"
+    iphone: "12207189874"
+  tongxun_test_003:
+    name: "陈伟3"
+    iphone: "13307189874"
